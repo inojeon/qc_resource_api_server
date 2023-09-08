@@ -1,0 +1,472 @@
+{
+  "details": [
+    {
+      "name": "status",
+      "title": "Status",
+      "value": "Online"
+    },
+    {
+      "name": "numberOfQibits",
+      "title": "Number of qubits",
+      "value": 20
+    },
+    {
+      "name": "qv",
+      "title": "QV",
+      "value": 16
+    },
+    {
+      "name": "clops",
+      "title": "CLOPS",
+      "value": 1.5,
+      "unit": "k"
+    },
+    {
+      "name": "totalPendingJobs",
+      "title": "Total pending jobs",
+      "value": 19,
+      "unit": "jobs"
+    },
+    {
+      "name": "processorType",
+      "title": "Processor type",
+      "value": "KRISS-20Q-v1"
+    },
+    {
+      "name": "version",
+      "title": "Version",
+      "value": "1.2.7"
+    },
+    {
+      "name": "basisGates",
+      "title": "Basis gates",
+      "value": "CX, ID, RZ, SX, X"
+    },
+    {
+      "name": "yourUsage",
+      "title": "Your usage",
+      "value": 0,
+      "unit": "jobs"
+    },
+    {
+      "name": "medianCNOTError",
+      "title": "Median CNOT Error",
+      "value": 1.12e-2
+    },
+    {
+      "name": "medianSXError",
+      "title": "Median SX Error",
+      "value": 3.36e-4
+    },
+    {
+      "name": "medianReadoutError",
+      "title": "Median Readout Error",
+      "value": 2.5e-2
+    },
+    {
+      "name": "medianT1",
+      "title": "Median T1",
+      "value": 50.7,
+      "unit": "us"
+    },
+    {
+      "name": "medianT2",
+      "title": "Median T2",
+      "value": 70.4,
+      "unit": "us"
+    },
+    {
+      "name": "instancesWithAccess",
+      "title": "Instances with access",
+      "value": 1,
+      "unit": "Instances"
+    }
+  ],
+  "calibrationDatas": [
+    [
+      {
+        "id": "qubit",
+        "title": "Qubit",
+        "value": 0
+      },
+      {
+        "id": "t1",
+        "title": "T1 (us)",
+        "value": 30
+      },
+      {
+        "id": "t2",
+        "title": "T2 (us)",
+        "value": 40
+      },
+      {
+        "id": "frequency",
+        "title": "Frequency (GHz)",
+        "value": 5.1
+      },
+      {
+        "id": "anharmonicity",
+        "title": "Anharmonicity (GHz)",
+        "value": -0.32
+      },
+      {
+        "id": "readoutAssignmentError",
+        "title": "Readout assignment error",
+        "value": 2.0e-2
+      },
+      {
+        "id": "probMeas0Prep1",
+        "title": "Prob meas0 prep1",
+        "value": 0.024
+      },
+      {
+        "id": "probMeas1Prep0",
+        "title": "Prob meas1 prep0 ",
+        "value": 0.023
+      },
+      {
+        "id": "readoutLength",
+        "title": "Readout length (ns)",
+        "value": 0.675
+      },
+      {
+        "id": "idError",
+        "title": "ID error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "rootXError",
+        "title": "√x (sx) error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "pauliXError",
+        "title": "Pauli-X error",
+        "value": 1.3e-4
+      },
+      {
+        "id": "cnotError",
+        "title": "CNOT error",
+        "value": ["0_1: 5.6e-3", "1_3: 2.8e-2"]
+      },
+      {
+        "id": "gateTime",
+        "title": "Gate time (ns)",
+        "value": ["0_1: 400", "1_3: 356"]
+      },
+      {
+        "id": "lastCalibrated",
+        "title": "Last calibrated",
+        "value": " 2023.7.17.03.33"
+      }
+    ],
+    [
+      {
+        "id": "qubit",
+        "title": "Qubit",
+        "value": 1
+      },
+      {
+        "id": "t1",
+        "title": "T1 (us)",
+        "value": 30
+      },
+      {
+        "id": "t2",
+        "title": "T2 (us)",
+        "value": 40
+      },
+      {
+        "id": "frequency",
+        "title": "Frequency (GHz)",
+        "value": 5.1
+      },
+      {
+        "id": "anharmonicity",
+        "title": "Anharmonicity (GHz)",
+        "value": -0.32
+      },
+      {
+        "id": "readoutAssignmentError",
+        "title": "Readout assignment error",
+        "value": 2.0e-2
+      },
+      {
+        "id": "probMeas0Prep1",
+        "title": "Prob meas0 prep1",
+        "value": 0.024
+      },
+      {
+        "id": "probMeas1Prep0",
+        "title": "Prob meas1 prep0 ",
+        "value": 0.023
+      },
+      {
+        "id": "readoutLength",
+        "title": "Readout length (ns)",
+        "value": 0.675
+      },
+      {
+        "id": "idError",
+        "title": "ID error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "rootXError",
+        "title": "√x (sx) error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "pauliXError",
+        "title": "Pauli-X error",
+        "value": 1.3e-4
+      },
+      {
+        "id": "cnotError",
+        "title": "CNOT error",
+        "value": ["0_1: 5.6e-3", "1_3: 2.8e-2"]
+      },
+      {
+        "id": "gateTime",
+        "title": "Gate time (ns)",
+        "value": ["0_1: 400", "1_3: 356"]
+      },
+      {
+        "id": "lastCalibrated",
+        "title": "Last calibrated",
+        "value": " 2023.7.17.03.33"
+      }
+    ],
+    [
+      {
+        "id": "qubit",
+        "title": "Qubit",
+        "value": 2
+      },
+      {
+        "id": "t1",
+        "title": "T1 (us)",
+        "value": 30
+      },
+      {
+        "id": "t2",
+        "title": "T2 (us)",
+        "value": 40
+      },
+      {
+        "id": "frequency",
+        "title": "Frequency (GHz)",
+        "value": 5.1
+      },
+      {
+        "id": "anharmonicity",
+        "title": "Anharmonicity (GHz)",
+        "value": -0.32
+      },
+      {
+        "id": "readoutAssignmentError",
+        "title": "Readout assignment error",
+        "value": 2.0e-2
+      },
+      {
+        "id": "probMeas0Prep1",
+        "title": "Prob meas0 prep1",
+        "value": 0.024
+      },
+      {
+        "id": "probMeas1Prep0",
+        "title": "Prob meas1 prep0 ",
+        "value": 0.023
+      },
+      {
+        "id": "readoutLength",
+        "title": "Readout length (ns)",
+        "value": 0.675
+      },
+      {
+        "id": "idError",
+        "title": "ID error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "rootXError",
+        "title": "√x (sx) error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "pauliXError",
+        "title": "Pauli-X error",
+        "value": 1.3e-4
+      },
+      {
+        "id": "cnotError",
+        "title": "CNOT error",
+        "value": ["0_1: 5.6e-3", "1_3: 2.8e-2"]
+      },
+      {
+        "id": "gateTime",
+        "title": "Gate time (ns)",
+        "value": ["0_1: 400", "1_3: 356"]
+      },
+      {
+        "id": "lastCalibrated",
+        "title": "Last calibrated",
+        "value": " 2023.7.17.03.33"
+      }
+    ],
+    [
+      {
+        "id": "qubit",
+        "title": "Qubit",
+        "value": 3
+      },
+      {
+        "id": "t1",
+        "title": "T1 (us)",
+        "value": 30
+      },
+      {
+        "id": "t2",
+        "title": "T2 (us)",
+        "value": 40
+      },
+      {
+        "id": "frequency",
+        "title": "Frequency (GHz)",
+        "value": 5.1
+      },
+      {
+        "id": "anharmonicity",
+        "title": "Anharmonicity (GHz)",
+        "value": -0.32
+      },
+      {
+        "id": "readoutAssignmentError",
+        "title": "Readout assignment error",
+        "value": 2.0e-2
+      },
+      {
+        "id": "probMeas0Prep1",
+        "title": "Prob meas0 prep1",
+        "value": 0.024
+      },
+      {
+        "id": "probMeas1Prep0",
+        "title": "Prob meas1 prep0 ",
+        "value": 0.023
+      },
+      {
+        "id": "readoutLength",
+        "title": "Readout length (ns)",
+        "value": 0.675
+      },
+      {
+        "id": "idError",
+        "title": "ID error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "rootXError",
+        "title": "√x (sx) error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "pauliXError",
+        "title": "Pauli-X error",
+        "value": 1.3e-4
+      },
+      {
+        "id": "cnotError",
+        "title": "CNOT error",
+        "value": ["0_1: 5.6e-3", "1_3: 2.8e-2"]
+      },
+      {
+        "id": "gateTime",
+        "title": "Gate time (ns)",
+        "value": ["0_1: 400", "1_3: 356"]
+      },
+      {
+        "id": "lastCalibrated",
+        "title": "Last calibrated",
+        "value": " 2023.7.17.03.33"
+      }
+    ],
+    [
+      {
+        "id": "qubit",
+        "title": "Qubit",
+        "value": 4
+      },
+      {
+        "id": "t1",
+        "title": "T1 (us)",
+        "value": 30
+      },
+      {
+        "id": "t2",
+        "title": "T2 (us)",
+        "value": 40
+      },
+      {
+        "id": "frequency",
+        "title": "Frequency (GHz)",
+        "value": 5.1
+      },
+      {
+        "id": "anharmonicity",
+        "title": "Anharmonicity (GHz)",
+        "value": -0.32
+      },
+      {
+        "id": "readoutAssignmentError",
+        "title": "Readout assignment error",
+        "value": 2.0e-2
+      },
+      {
+        "id": "probMeas0Prep1",
+        "title": "Prob meas0 prep1",
+        "value": 0.024
+      },
+      {
+        "id": "probMeas1Prep0",
+        "title": "Prob meas1 prep0 ",
+        "value": 0.023
+      },
+      {
+        "id": "readoutLength",
+        "title": "Readout length (ns)",
+        "value": 0.675
+      },
+      {
+        "id": "idError",
+        "title": "ID error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "rootXError",
+        "title": "√x (sx) error",
+        "value": 1.2e-4
+      },
+      {
+        "id": "pauliXError",
+        "title": "Pauli-X error",
+        "value": 1.3e-4
+      },
+      {
+        "id": "cnotError",
+        "title": "CNOT error",
+        "value": ["0_1: 5.6e-3", "1_3: 2.8e-2"]
+      },
+      {
+        "id": "gateTime",
+        "title": "Gate time (ns)",
+        "value": ["0_1: 400", "1_3: 356"]
+      },
+      {
+        "id": "lastCalibrated",
+        "title": "Last calibrated",
+        "value": " 2023.7.17.03.33"
+      }
+    ]
+  ]
+}
